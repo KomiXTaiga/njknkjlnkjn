@@ -1,0 +1,1 @@
+{"Pycharm": "def save(filepath, data):\\r\\n    with open(filepath, 'w') as f:\\r\\n        json.dump(data, f)\\r\\ndef load(filepath):\\r\\n    try:\\r\\n        with open(filepath, 'r') as f:\\r\\n            data = json.dump(f)\\r\\n            return data\\r\\n    except:\\r\\n        return {}"}
